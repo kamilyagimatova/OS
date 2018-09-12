@@ -1,0 +1,1 @@
+We read the line and send this line in the shell by the function 'system'. This function accept commands with arguments and without them. 
