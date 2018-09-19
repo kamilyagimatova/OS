@@ -1,0 +1,5 @@
+the critical region: 
+	i=$( tail -n1 ex2.txt)
+	i=$((i+1))
+	echo ' ' >> ex2.txt
+	echo $i >> ex2.txt
