@@ -1,0 +1,2 @@
+text    data     bss     dec     hex filename
+9836    2228    2432   14496    38a0 ex2.exe
