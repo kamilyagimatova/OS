@@ -11,6 +11,9 @@ void* realloc_new(void* ptr, int size) {
         return ptr;
     }
     void* ptr_new = malloc(size);
+    for (int i = 0; i < size; i++) {
+        ((char*)ptr_new)[i] = ((char*)ptr)[i];
+    }
     free(ptr);
     return ptr_new;
 }
@@ -21,7 +24,7 @@ int main() {
     for (int i = 0; i < 5; i++) {
         a[i] = i + 100;
     }
-    a = realloc(a, 9 * sizeof(int));
+    a = realloc_new(a, 9 * sizeof(int));
     for (int i = 0; i < 9; i++) {
         printf("%d ", a[i]);
     }

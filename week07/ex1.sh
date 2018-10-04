@@ -1,0 +1,1 @@
+size ex2.exe > ex1.txt
