@@ -1,0 +1,2 @@
+8 KB => lower 13 bits would then specify the byte offset (0 to 8191)
+16 - 13 = 3 upper bit specify 2^3 = 8 virtual pages => answer is 8 entries
