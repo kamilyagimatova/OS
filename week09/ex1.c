@@ -21,12 +21,9 @@ void error(int page) {
     for (int i = 0; i < length; i++) {
         if (frame[i].age == min_age) {
             frame[i].page = page;
-            frame[i].age = 256; // because after it / 2 => it will become 128 = 2^7
+            frame[i].age = 128;
             break;
         }
-    }
-    for (int i = 0; i < length; i++) {
-        frame[i].age /= 2;      // new page will become 128
     }
     return;
 }
