@@ -1,0 +1,11 @@
+For increasing the same pages will go in a row. 
+example: 1 2 3 4 5 1 2 1 2 1 6 3
+should: 1 1 1 1 2 2 2 3 3 4 5 6 (it is not obligatory in ascending order)
+maybe also: 4 5 1 1 1 1 2 2 2 3 3 6
+For decreasing the same pages should be as far as possible:
+example: 1 1 2 3 4 4 5 6
+should: 1 2 3 4 5 6 1 2
+but if we have for our example 4 frames => it will decrease
+if 8 frames => it will be the same
+
+
