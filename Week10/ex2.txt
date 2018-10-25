@@ -1,0 +1,6 @@
+Input: $ link /home/kamilya/Documents/week01/file.txt _ex2.txt
+Output: 
+Input: $ find -inum 1196138
+Output: ./_ex2.txt
+Input: find -inum 1196138 -exec rm {} \;
+Output: 
