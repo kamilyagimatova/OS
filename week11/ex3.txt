@@ -1,0 +1,7 @@
+Program 1 write: Hello
+		 Hello
+Program 2 write: Hello
+	 	  
+		 
+In this case use line buffering because in first case when program ask to write Hello, program don't do it, but when it ask to write \n 2 processes write from buffer Hello and \n (write line by line).
+In second case when program ask to write Hello\n then program do it and after it 2 processes write just \n because buffer is empty.
