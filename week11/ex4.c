@@ -21,9 +21,7 @@ int main() {
 	char *f1 = (char*)mmap(0, len, PROT_READ, MAP_SHARED, fd1, 0);
 	char *f2 = (char*)mmap(0, len, PROT_READ | PROT_WRITE, MAP_SHARED, fd2, 0);
 
-	for (int i = 0; i < len; i++) {
-		f2[i] = f1[i];
-	}
+	memcpy(f2, f1, 20);
 
 	munmap(f1, len);
 	munmap(f2, len);
