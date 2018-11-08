@@ -1,0 +1,28 @@
+Initial: 
+real	0m0,002s
+user	0m0,002s
+sys	0m0,000s
+
+10:
+real	0m0,001s
+user	0m0,001s
+sys	0m0,000s
+
+1:
+real	0m0,025s
+user	0m0,000s
+sys	0m0,025s
+
+Modified:
+1:
+real	0m29,141s
+user	0m0,050s
+sys	0m0,846s
+
+100:
+real	0m0,308s
+user	0m0,003s
+sys	0m0,008s
+
+
+
